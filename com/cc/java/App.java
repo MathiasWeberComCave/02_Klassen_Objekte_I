@@ -1,5 +1,7 @@
 package com.cc.java;
 
+import javax.swing.InputMap;
+
 public class App {
 
     public static void main(String[] args) {
@@ -14,7 +16,7 @@ public class App {
 
         Dog dog = new Dog("Alonso", "grey", 25);
 
-        dog.setAge(20);
+        dog.setAge(5);
 
         output(dog.getName());
         output(dog.getFurColor());
