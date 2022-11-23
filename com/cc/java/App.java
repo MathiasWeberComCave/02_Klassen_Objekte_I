@@ -5,7 +5,7 @@ public class App {
     public static void main(String[] args) {
 
         Cat cat = new Cat("Grizabella", "white", 5);
-       
+
         output(cat.tellYourName());
         output(cat.tellYourFurcolor());
         output(String.valueOf(cat.tellYourAge()));
@@ -14,9 +14,13 @@ public class App {
 
         Dog dog = new Dog("Alonso", "grey", 25);
 
-        output(dog.tellYourName());
-        output(dog.tellYourFurcolor());
-        output(String.valueOf(dog.tellYourAge()));
+        dog.setAge(20);
+
+        output(dog.getName());
+        output(dog.getFurColor());
+        output(String.valueOf(dog.getAge()));
+
+        output("------------------------");
     }
 
     public static void output(String outputStr) {
