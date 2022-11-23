@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "com.cc.java.App",
+            "projectName": "02_Klassen_Objekte_I_84d7dc54"
+        },
+        {
+            "type": "java",
+            "name": "<Let`s Go!",
+            "request": "launch",
+            "mainClass": "${file}",
+            "console": "internalConsole"
+        }
+    ]
+}
